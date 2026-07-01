@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto Cinto | Consultoría Contable</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">RC <span>Contador</span></a>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <i class="fa-solid fa-bars icon-open"></i>
+                <i class="fa-solid fa-xmark icon-close"></i>
+            </label>
+
+            <ul class="nav-menu">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto" class="btn-nav">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1>Roberto Cinto</h1>
+            <p class="subtitle">Gestión Contable y Tributaria Estratégica para Empresas y Profesionales</p>
+            <div class="hero-buttons">
+                <a href="#servicios" class="btn-primary">Ver Servicios</a>
+                <a href="#contacto" class="btn-secondary">Solicitar Asesoría</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="servicios" class="services-section">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <p class="section-subtitle">Haz clic en cada área para conocer en detalle cómo podemos ayudarte.</p>
+
+            <div class="accordion-container">
+                
+                <div class="accordion-item">
+                    <input type="checkbox" id="srv1" class="accordion-toggle">
+                    <label for="srv1" class="accordion-header">
+                        <span><i class="fa-solid fa-calculator icon-service"></i> Asesorías Contables</span>
+                        <i class="fa-solid fa-chevron-down arrow"></i>
+                    </label>
+                    <div class="accordion-content">
+                        <p>Llevamos el control absoluto de tus libros contables, balances financieros y estados de resultados. Nos aseguramos de que la salud financiera de tu negocio sea transparente y óptima para la toma de decisiones.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <input type="checkbox" id="srv2" class="accordion-toggle">
+                    <label for="srv2" class="accordion-header">
+                        <span><i class="fa-solid fa-briefcase icon-service"></i> Creación de Empresas</span>
+                        <i class="fa-solid fa-chevron-down arrow"></i>
+                    </label>
+                    <div class="accordion-content">
+                        <p>Te guiamos paso a paso en la constitución legal de tu empresa (SpA, EIRL, Limitada). Estructuramos tus estatutos de forma sólida y eficiente desde el primer día.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <input type="checkbox" id="srv3" class="accordion-toggle">
+                    <label for="srv3" class="accordion-header">
+                        <span><i class="fa-solid fa-rocket icon-service"></i> Iniciación de Actividades</span>
+                        <i class="fa-solid fa-chevron-down arrow"></i>
+                    </label>
+                    <div class="accordion-content">
+                        <p>Formalizamos tu negocio ante el SII (Servicio de Impuestos Internos). Te ayudamos a seleccionar el régimen tributario que más te convenga para maximizar tus beneficios fiscales.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <input type="checkbox" id="srv4" class="accordion-toggle">
+                    <label for="srv4" class="accordion-header">
+                        <span><i class="fa-solid fa-receipt icon-service"></i> Declaración de IVA</span>
+                        <i class="fa-solid fa-chevron-down arrow"></i>
+                    </label>
+                    <div class="accordion-content">
+                        <p>Cálculo mensual y presentación del Formulario 29. Monitoreamos tus compras y ventas para evitar contingencias, multas o discrepancias tributarias.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <input type="checkbox" id="srv5" class="accordion-toggle">
+                    <label for="srv5" class="accordion-header">
+                        <span><i class="fa-solid fa-chart-line icon-service"></i> Declaración de Renta</span>
+                        <i class="fa-solid fa-chevron-down arrow"></i>
+                    </label>
+                    <div class="accordion-content">
+                        <p>Operación Renta anual (Formulario 22) y Declaraciones Juradas. Optimizamos tu carga impositiva aplicando estrictamente las franquicias y beneficios legales vigentes.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <input type="checkbox" id="srv6" class="accordion-toggle">
+                    <label for="srv6" class="accordion-header">
+                        <span><i class="fa-solid fa-users-gear icon-service"></i> Remuneraciones</span>
+                        <i class="fa-solid fa-chevron-down arrow"></i>
+                    </label>
+                    <div class="accordion-content">
+                        <p>Gestión de nóminas, liquidaciones de sueldo, contratos, finiquitos y cálculo de cotizaciones previsionales (Previred). Mantén la relación laboral con tu equipo al día y bajo la norma legal.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="about-section">
+        <div class="container about-grid">
+            <div class="about-text">
+                <h2 class="section-title text-left">Compromiso y Transparencia</h2>
+                <p>Detrás de cada gran empresa hay una contabilidad impecable. Nos enfocamos en liberar a los emprendedores y profesionales de la carga administrativa y tributaria, transformando números complejos en soluciones claras.</p>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <h4>Cumplimiento 100% Legal</h4>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-user-tie"></i>
+                        <h4>Atención Personalizada</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="about-stats">
+                <div class="stat-box">
+                    <h3>+5</h3>
+                    <p>Años de Experiencia</p>
+                </div>
+                <div class="stat-box">
+                    <h3>100%</h3>
+                    <p>Clientes Satisfechos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Hablemos de tu Negocio</h2>
+            <p class="section-subtitle">Déjanos tus datos o contáctanos directamente a través de nuestros canales oficiales.</p>
+
+            <div class="contact-grid">
+                <div class="contact-info-box">
+                    <h3>Información de Contacto</h3>
+                    <div class="info-link">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <a href="mailto:contador.rcinto@gmail.com">contador.rcinto@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="info-link">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <a href="https://wa.me/56997714902" target="_blank">+56 9 9771 4902</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <input type="text" placeholder="Tu Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Tu Correo Electrónico" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="4" placeholder="¿En qué servicio estás interesado o cuál es tu consulta?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary btn-block">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Roberto Cinto - Contador. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
